@@ -13,8 +13,12 @@ installed on your system.
 Here's a list of dependencies needed for PyBitmessage
 - python2.7
 - python2-qt4 (python-qt4 on Debian/Ubuntu)
+- python2-dialog (python-dialog on Debian/Ubuntu)
 - openssl
 - (Fedora & Redhat only) openssl-compat-bitcoin-libs 
+
+python2-qt4 is only needed when running PyBitmessage in GUI mode (so not for curses or daemon mode)
+python2-dialog is only needed when running PyBitmessage in curses mode (so not for GUI or daemon mode)  
 
 ##Running PyBitmessage
 PyBitmessage can be run two ways: straight from source or via a package which
